@@ -33,19 +33,6 @@ To segment the customers, the project employs three different clustering algorit
 * Targeted Marketing: Utilizing the clusters, marketing strategies can be more effectively tailored to each segment, potentially increasing conversion rates and customer satisfaction.
 * Business Strategy: The insights gained can inform various business decisions, such as inventory management, store layout, and promotional offers.
 
-## ⏳ Dataset
-- Download the dataset for custom training
-- https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python
-  
-* CustomerID : Unique ID assigned to the customer
-
-* Gender : Gender of the customer
-
-* Age : Age of the customer
-
-* Annual Income (k$) : Annual Income of the customee
-
-* Spending Score (1-100) :Score assigned by the mall based on customer behavior and spending nature
 
 ## Author 
 - B Houssem E Zelmat 
