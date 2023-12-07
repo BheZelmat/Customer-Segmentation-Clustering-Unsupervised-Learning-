@@ -3,24 +3,35 @@
 
 ![alt text](https://github.com/BheZelmat/Customer-Segmentation-Clustering-Unsupervised-Learning-/blob/main/img.png?raw=true)
   
-## 📝 Description
-- The project "Predicting Medical Costs Billed by Health Insurance" leverages a comprehensive dataset of 1338 entries, encompassing attributes such as age, sex, BMI, number of children, smoking status, region, and individual medical charges. It aims to analyze how these factors impact medical costs.
- The dataset reflects a broad range of age groups, body mass indices, with an average of about one child per individual, and significant variability in medical expenses.
- Utilizing advanced machine learning models including Neural Networks, Gradient Boosting, Linear Regression, Random Forest, and Ensemble methods, the project seeks to delve into the data, unveiling patterns and correlations.
-This endeavor is geared towards facilitating the development of robust predictive models, enabling more precise estimations of health insurance costs based on specific individual attributes.
 
 
+## 📝 Overview
+This project involves a data analytics exploration and modelling  in the retail sector, particularly focusing on understanding customer behavior through segmentation. The primary objective is to group customers into distinct categories based on their characteristics and purchasing patterns, enabling the retailer to tailor marketing strategies and improve customer service.
 
-##  Context
-This data set is created only for the learning purpose of the customer segmentation concepts , also known as market basket analysis . I will demonstrate this by using unsupervised ML technique (KMeans Clustering Algorithm) in the simplest form.
 
-##  Content
-You are owing a supermarket mall and through membership cards , you have some basic data about your customers like Customer ID, age, gender, annual income and spending score.
-Spending Score is something you assign to the customer based on your defined parameters like customer behavior and purchasing data.
+## ⏳ Dataset 
 
-##  Problem Statement
-You own the mall and want to understand the customers like who can be easily converge [Target Customers] so that the sense can be given to marketing team and plan the strategy accordingly.
+- Download the dataset for custom training
+- https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python
+* CustomerID: A unique identifier for each customer.
+* Gender: The gender of the customer.
+* Age: The age of the customer.
+* Annual Income (k$): The customer's annual income expressed in thousands of dollars.
+* Spending Score (1-100): A score between 1 and 100 assigned by the mall, indicating the customer's spending behavior and purchasing power.
 
+## Analytical Models : 
+
+To segment the customers, the project employs three different clustering algorithms, each offering unique perspectives and clustering approaches:
+
+* K-means Clustering: This popular algorithm partitions the customers into K distinct, non-overlapping clusters. It's based on minimizing the variance within each cluster and is known for its simplicity and efficiency.
+* Spectral Clustering: This algorithm uses the eigenvalues of a similarity matrix to reduce dimensionality before clustering in fewer dimensions. It's particularly useful for identifying non-linear cluster structures that K-means might miss.
+* Agglomerative Clustering: A type of hierarchical clustering that builds nested clusters by merging or splitting them successively. This method provides a tree of clusters, which is helpful in understanding the data's hierarchical structure.
+
+## Objectives and Applications
+
+* Customer Understanding: By segmenting customers, the project aims to gain insights into different customer groups, understanding their specific needs and preferences.
+* Targeted Marketing: Utilizing the clusters, marketing strategies can be more effectively tailored to each segment, potentially increasing conversion rates and customer satisfaction.
+* Business Strategy: The insights gained can inform various business decisions, such as inventory management, store layout, and promotional offers.
 
 ## ⏳ Dataset
 - Download the dataset for custom training
